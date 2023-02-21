@@ -31,7 +31,7 @@ map.touchZoomRotate.disableRotation();
 map.zoomIn({duration: 1000});
 
 const attCntl = new maplibregl.AttributionControl({
-    customAttribution: '<p class="remark"><a href="https://kokkai.ndl.go.jp/" target="_blank">国会会議録検索システム</a>から取得した2022年の全ての会議録を解析。議論（発言数）が集中したトピックほど 緑 < 黄 < 赤 の順で色づきます。個々の会議録は5発言＝1セットで内容に沿って配置し、クリックで確認可能。</p>',
+    customAttribution: '<p class="remark"><a href="https://kokkai.ndl.go.jp/" target="_blank">国会会議録検索システム</a>から取得した2022年の全ての会議録を解析。議論（発言数）が集中したトピックほど 緑 < 黄 < 赤 の順で色づきます。個々の会議録は5発言＝1セットで内容に沿って配置し、クリックで詳細を確認可能。(<a href="https://github.com/sanskruthiya/kokkaiR4" target="_blank">Github</a>）</p>',
     compact: true
 });
 
