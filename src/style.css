@@ -1,0 +1,63 @@
+html, body {
+    margin: 0; padding: 0;
+    -webkit-text-size-adjust : 100%;
+}
+
+#map {
+    position: fixed;
+    width: 100%;
+    height: 100%
+    }
+
+.map-overlay {
+    position: absolute;
+    width: 250px;
+    top: 10px;
+    left: 5px;
+    padding: 2px;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+.map-overlay select {
+    color:#111;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Helvetica, "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background: rgba(255,255,255);
+    border-radius: 5px;
+    border: 1px solid rgb(135, 200, 235);
+}
+
+p.remark {
+    color:#555; font-size: 11px; font-weight: normal; font-family: Helvetica, "游ゴシック体", YuGothic, "YuGothic M", sans-serif; 
+}
+
+p.tipstyle01 {
+    color:#111; font-size: 12px; font-weight: normal; font-family: Helvetica, "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+}
+
+p.tipstyle02 {
+    color:#111; font-size: 13px; line-height: 2em; font-weight: normal; font-family: Helvetica, "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+}
+
+span.style01 {
+    background: linear-gradient(transparent 70%, #ffd700 70%);
+}
+
+.t-popup .maplibregl-popup-content {
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    padding: 10px 10px;
+}
+
+.t-popup .maplibregl-popup-anchor-right .maplibregl-popup-tip {
+    align-self: center;
+    border-right: none;
+    border-left-color: #333;
+}
